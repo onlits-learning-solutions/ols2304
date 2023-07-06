@@ -1,0 +1,67 @@
+
+	College	affiliated to BRABU
+	
+	Autonomous College under BRABU
+	
+	Deemed to be University
+	
+	LNCT (RGPU) - 120	/	LNU	-	500+
+	
+	GCT (AKTU) - 120	/	GU	-	800+
+	
+	x			=	00000001	=	1
+	x = x << 1	=	00000010	=	2
+	x = x << 1	=	00000100	=	4
+	x = x << 1	=	00001000	=	8
+	
+	x			=	00001000	=	8
+	x = x >> 1	=	00000100	=	4
+	x = x >> 1	=	00000010	=	2
+	x = x >> 1	=	00000001	=	1
+	
+	
+	WAP to multiply a number by a power of 2.
+	
+	Enter a number:	7
+	Enter the power of 2: 2 
+	
+	
+	
+	for(i = 1; i<=p; i++)		O(n)
+	{
+		p = p * 2;
+	}
+	
+	p = n << 2;				O(1)
+	
+	A	=	01000001		=		01000011
+	~A	=	10111110
+	
+	
+	0	0	0
+	0	1	0
+	1	0	0
+	1	1	1
+	
+	And	-	Bit testing	& clearing a bit.
+	Or	-	Bit setting
+	Xor	-	Bit invertion
+	
+	
+	
+	11111111			10101010	AA
+	11111011			11110111	F7
+	--------			--------
+	11111011			10100010
+	--------			--------
+	
+	Mathematics is all about Patterns
+	
+	
+	10111010		10111010
+	00001000		00000100
+	--------		--------
+	00001000 => 1	00000000	=>	0
+	--------		--------
+	
+	
