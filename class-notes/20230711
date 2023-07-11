@@ -1,0 +1,23 @@
+
+
+	Frameworks
+	
+	MWF	- DS, C, Java, OOP, Design Pattern, Unit Testing, DI
+	TTS - Frameworks (Laravel, ASP.Net, MERN, Spring/SpringBoot, DJango)
+	
+	maven
+	gradle
+	
+	configration	-	XML (before)
+						JSON (now)
+	
+	pom.xml
+	
+	<groupid>local.ols2304.dsa</groupid>
+	
+	mysql -uroot -p root
+	
+	Android Studio	-	Gradle
+	
+	RESTApi	-	BackEnd
+	Different FrontEnd for Web (React)/Mobile (Flutter/ReactNative)
