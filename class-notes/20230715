@@ -1,0 +1,66 @@
+
+	Laravel
+		- Create Model
+		- Create Migration	(Table Definition)
+		- Migrate
+		- ORM - (Eloquent)
+		
+	Asp.Net
+		- Create Model (Table Definition) -> POCO
+		- Install package for DbContext 
+						(Microsoft.EntityFrameworkCore.Design)
+		- Create DbContext's Subclass
+		- Create Migration
+		- Migrate / Database Update
+		- ORM - (Entity Framework Core)
+		
+	PostgreSql
+	
+	
+	To install a package in laravel: (Composer)
+		composer require phpunit/phpunit
+		
+	To install a package in .Net: (Nuget)
+		dotnet add package Microsoft.EntityFrameworkCore.Design
+		
+		
+		int Id;
+		
+		public void setId(int Id)		//setter method
+		{
+			this.Id = Id;
+		}
+		
+		public int getId()				//getter method
+		{
+			return Id;
+		}
+		
+	$con = new mysqli(.....)	// session
+	$result = $con->query($sql)	// query
+	while($result->hasrows())
+	{
+		$row = $result->fetch_all();	// store
+	}
+	
+	
+	// session
+	Dim con as new SqlConnection(...)	//vb
+	SqlConnection con = new SqlConnection(...) //c#
+	SqlCommand cmd = new SqlCommand() // query
+	Dataset Ds = new Dataset()		// store
+	
+	a	=	10
+	a$	=	"Bihar"
+	
+	Dim a(10)
+	Dim a as Integer
+	
+	Dependency Injection
+	Service Container
+	
+	#include <stdio.h>
+	
+	new OnlineAssessment()	-> Concreate Instantiation - Tight Coupling
+	
+	

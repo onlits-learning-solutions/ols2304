@@ -1,0 +1,29 @@
+
+ Our own ORM
+ 
+ 
+ Framework build over basic data access library
+ 
+ 	.Net
+ 		ADO.Net + Linq
+ 	PHP
+ 		PDO
+ 		
+ 		$pdo = new PDO();
+ 		
+ 	Migration
+ 	
+ 	PHP
+ 		Student student = new Student() {
+ 			
+ 		}
+ 		student.save();
+ 		
+ 	.Net
+ 		_context.Students.Add(new Student {
+ 		
+ 		});
+ 		
+ 		_context.SaveChanges();
+ 	
+ 	POCO

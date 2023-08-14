@@ -1,0 +1,48 @@
+
+	Data
+	
+	PHP + MySQL
+	
+	Laravel -	MVC
+	
+	ASP.Net	-	MVC and Others
+	
+	
+	- Create and configure your project
+	- Create Models
+	- Create Migration
+	- Create Controllers
+	- Create Views
+	
+	- Route
+	- Middleware
+	- Seeders
+	
+	ORM	-	Object Relational Mapper
+	
+	Resource
+	
+	Laravel is shipped with a command line tool called 'artisan'.
+	
+	GOF	-	23 Design Patterns
+	SOLID
+	P of EAA
+	
+	Scaffolding
+	
+	In Laravel model classes are not POPOs as they inherit Model class
+	Whereas. model classes in ASP.Net are POCOs as they do not inherit
+	any class nor implement any interface.
+	
+	Question
+		int Id
+		string Question
+		
+	file-scoped namespace
+	
+	
+	Private Sub BtnClick_Click(sender as Object, e as EventArgs) handles BtnClick.click	
+	
+	End Sub
+	
+	

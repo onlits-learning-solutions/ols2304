@@ -1,0 +1,21 @@
+
+	MEAN	-	MongoDb Express.JS Angular.JS Node.JS
+	MERN	-	MongoDb Express.JS React.JS Node.JS
+	
+	
+	- Create a project
+	- Open in IDE (VS Code)
+	- Decide on the DBMS to be used as based on this packages are to
+	  be installed. (EFCore.Design, DBMS.package)
+	- Create a subclass of DbContext Class.
+	  
+	  
+	 Todo
+	 	- Id
+	 	- Name
+	 	- Notes
+	 	- Due Date
+	 	- Priority (l, m, h, n)
+	 	- Status (c, p)
+	 	
+	 DSA, OOP, RDBMS

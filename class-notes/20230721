@@ -1,0 +1,33 @@
+
+	C
+	C++
+	Python
+	Java
+	C#
+	PHP
+	--------
+	Go
+	Groovy
+	Kotlin
+	Rust
+	Ruby
+	
+	
+	Spring MVC - DI
+	Express MVC
+	DJango - MVT
+	
+	*p->fun();	//C++
+	$p->fun(); //PHP
+	p.fun();  //Java/C#
+	
+	
+	POJO
+	POCO
+	POPO
+	
+	Connection connection = DriverManager.getConnection(url,uid,pass);
+	
+	class MysqlConnection implements Connection {
+	
+	}

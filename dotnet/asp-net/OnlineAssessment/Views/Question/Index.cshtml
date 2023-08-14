@@ -1,0 +1,31 @@
+@model List<Question>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Questions Index</h1>
+    <a asp-controller="Question" asp-action="Create" class="btn btn-primary">New Question</a>
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Question</th>
+            <th></th>
+            <th></th>
+        </tr>
+        @foreach (var question in Model)
+        {
+            <tr>
+                <td>@question.id</td>
+                <td>@question.question</td>
+                <td><a asp-controller="Question" asp-action="Edit" asp-route-id="@question.id">Edit</a></td>
+                <td><a asp-controller="Question" asp-action="Delete" asp-route-id="@question.id">Delete</a></td>
+            </tr>
+        }
+    </table>
+</body>
+</html>

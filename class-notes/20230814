@@ -1,0 +1,13 @@
+
+Connection connection = DriverManager.getConnection(url, user, pass);
+
+1. Connection connection = new Connection(url, user, pass);
+
+2. Connection connection = new MySqlConnection(url, user, pass);
+							concrete instantiation
+Loose Coupling
+
+1. Connection is not a class it is an interface.
+
+2. Should know which class to instantiate.
+

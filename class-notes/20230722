@@ -1,0 +1,41 @@
+
+	Request Object
+	Model Binding
+	
+	Data Model
+	
+	Sales
+	SalesItems
+	
+	Collection/Generics
+	
+	annotation
+	
+	Interface A {
+		void methodA();
+	}
+	
+	Class B {
+		abstract void methodB1();
+		void methodb2() {
+		
+		}
+	}
+	
+	Class c extends B implement A {
+		@Override
+		void methodA() {
+		
+		}
+		
+		@Override
+		void methodB1() {
+		
+		}
+	}
+	
+	Eloquent
+	EntityFramework Core
+	Hibernate
+	
+	

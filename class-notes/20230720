@@ -1,0 +1,39 @@
+
+	- Create project
+	- Install necessary packages (Asp.Net)
+	- Create Models
+	- Create DbContext Subclass (Asp.Net)
+	- Migrate Database
+	------------------------------------------------------
+	
+	- Create controllers
+	- Map Routes
+	
+	Laravel has no POPO classes
+	
+	C	-	create
+	R	-	index
+	U	-	update
+	D	-	destroy
+	
+	
+	index()		-	list all 
+	create()	-	form to create
+	store()		-	save a new resource
+	show()		-	list single
+	edit()		-	form to edit
+	update()	-	update existing resource
+	destroy()	-	delete a resource
+	
+	The job of controller is to respond to request.
+	
+	<form action="/question" method="">
+	
+	</form>
+	
+	http://127.0.0.1:8000/question
+	
+	200	=	OK
+	404	=	Not Found
+	500	=	Server Internal Error
+

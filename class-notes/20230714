@@ -1,0 +1,32 @@
+
+	Data Model	-	Design of Data	-	Class
+	
+	php artisan migrate
+	
+	Model		-	php artisan make:model Question
+	Migration	-	php artisan make:migration create_questions_table
+	
+	php artisan migrate
+	
+	/	-	float
+	\	-	int (floor)
+	
+	
+	MVC
+	ORM
+	
+	Facade pattern
+	
+	Library
+		MySQLi
+		PDO - PHP Data Objects
+		
+		
+		$con = new Mysqli();
+		$con = new PDO();
+		
+	
+	Issues with migration:
+		- Database not yet created (will be taken care of by laravel)
+		- User 'ols2304' does not exist
+		- User 'ols2304' does not have necessary privilege

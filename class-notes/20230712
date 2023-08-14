@@ -1,0 +1,86 @@
+
+	1. PHP Laravel
+	2. ASP.Net
+--------------------------
+	3. Spring/Spring Boot
+	4. MERN
+	5. DJango
+--------------------------
+	6. Ruby on Rails
+	
+	Practice
+	
+	OnlineAssessment
+		Questions
+		Candidates
+		Assessments/Exam
+	
+	Perfection
+	
+	ChatGPT
+	
+	For Laravel
+		PHP 8.2
+		Composer
+		
+	For Asp.Net
+		.Net SDK
+		.Net Runtime Environment
+		
+	Symphony
+	Codeigniter
+	Yii
+	CakePHP
+	
+	Laravel - MVC architecture
+	
+	MacOS
+	
+	POCO	-	Plain Old CLR Object
+	
+	POJO	-	Plain Old Java Object
+	
+	
+	
+	public class Calculator extends Applet {
+	
+	}
+	
+	
+	public class MyThread extends Thead {
+	
+	}
+	
+	
+	public class MyThread implements Runnable {
+	
+	
+	}
+	
+	public class Student {	//POJO / POCO
+		private int Id;
+		private String name;
+		
+		public void setId(int Id) {
+			this.Id = Id;
+		}
+		
+		public int getId() {
+			return Id;
+		}
+	
+	}
+	
+	public record student (int Id, String name);
+	
+	
+	ORM	-	Object Relational Mapper
+	
+	Laravel	-	Eloquent
+	ASP.Net	-	Entity Framework Core
+	
+	M	-	Model
+	V	-	View
+	C	-	Controller
+	
+	
